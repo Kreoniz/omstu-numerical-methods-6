@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.0",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "2b62b21382abc5acfccbdb08c630d74f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"no3\">\u041b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430 \u21163</h1>\n<h2 id=\"23\">\u0412\u0430\u0440\u0438\u0430\u043d\u0442 23</h2>\n<span class=\"paragraph\">\u0420\u0435\u0448\u0438\u0442\u044c \u0441\u0438\u0441\u0442\u0435\u043c\u0443 \u043b\u0438\u043d\u0435\u0439\u043d\u044b\u0445 \u0430\u043b\u0433\u0435\u0431\u0440\u0430\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0443\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u0439 \u043c\u0435\u0442\u043e\u0434\u0430\u043c\u0438:</span>\n<ol>\n<li>\u041c\u0435\u0442\u043e\u0434 \u0413\u0430\u0443\u0441\u0441\u0430  </li>\n<li>\u041c\u0435\u0442\u043e\u0434 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0439 \u043c\u0430\u0442\u0440\u0438\u0446\u044b  </li>\n</ol>\n<span class=\"paragraph\">\u0422\u043e\u0447\u043d\u043e\u0441\u0442\u044c: <marimo-tex class=\"arithmatex\">||(\\varepsilon = 0.001||)</marimo-tex></span></span>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}

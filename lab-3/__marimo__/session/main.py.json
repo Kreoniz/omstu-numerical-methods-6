@@ -1,0 +1,100 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.0",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "ebc3251c9eb379ad9dc713eca9adec2d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"no3\">\u041b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430 \u21163</h1>\n<h2 id=\"23\">\u0412\u0430\u0440\u0438\u0430\u043d\u0442 23</h2>\n<span class=\"paragraph\">\u0420\u0435\u0448\u0438\u0442\u044c \u0441\u0438\u0441\u0442\u0435\u043c\u0443 \u043b\u0438\u043d\u0435\u0439\u043d\u044b\u0445 \u0430\u043b\u0433\u0435\u0431\u0440\u0430\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0443\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u0439 \u043c\u0435\u0442\u043e\u0434\u0430\u043c\u0438:</span>\n<ol>\n<li>\u041c\u0435\u0442\u043e\u0434 \u0413\u0430\u0443\u0441\u0441\u0430  </li>\n<li>\u041c\u0435\u0442\u043e\u0434 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0439 \u043c\u0430\u0442\u0440\u0438\u0446\u044b  </li>\n</ol>\n<span class=\"paragraph\">\u0422\u043e\u0447\u043d\u043e\u0441\u0442\u044c: <marimo-tex class=\"arithmatex\">||(\\varepsilon = 0.001||)</marimo-tex></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "11e5e9673969aaff5a6e05d5933eeefd",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='vblA-0' random-id='74d3e9a5-c2f3-5f51-bbe1-183faac0336e'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;x1&#92;&quot;:2.38,&#92;&quot;x2&#92;&quot;:1.54,&#92;&quot;x3&#92;&quot;:-4.27,&#92;&quot;x4&#92;&quot;:0.96,&#92;&quot;b&#92;&quot;:3.85},{&#92;&quot;x1&#92;&quot;:1.72,&#92;&quot;x2&#92;&quot;:-2.89,&#92;&quot;x3&#92;&quot;:1.35,&#92;&quot;x4&#92;&quot;:-3.42,&#92;&quot;b&#92;&quot;:-5.16},{&#92;&quot;x1&#92;&quot;:3.61,&#92;&quot;x2&#92;&quot;:0.78,&#92;&quot;x3&#92;&quot;:-2.53,&#92;&quot;x4&#92;&quot;:1.84,&#92;&quot;b&#92;&quot;:4.29},{&#92;&quot;x1&#92;&quot;:-0.85,&#92;&quot;x2&#92;&quot;:3.26,&#92;&quot;x3&#92;&quot;:1.97,&#92;&quot;x4&#92;&quot;:-0.69,&#92;&quot;b&#92;&quot;:2.71}]&quot;' data-total-rows='4' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;x1&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;x2&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;x3&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;x4&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;b&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "fca3e146acb791da34d190b0e94688da",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u0443\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u0439 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u0430 23:</span>\n<marimo-tex class=\"arithmatex\">||[\n\\begin{cases}\n2.38x_1 + 1.54x_2 - 4.27x_3 + 0.96x_4 = 3.85,\\\\\n1.72x_1 - 2.89x_2 + 1.35x_3 - 3.42x_4 = -5.16,\\\\\n3.61x_1 + 0.78x_2 - 2.53x_3 + 1.84x_4 = 4.29,\\\\\n-0.85x_1 + 3.26x_2 + 1.97x_3 - 0.69x_4 = 2.71.\n\\end{cases}\n||]</marimo-tex></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "e8a44bef8437fca95eed7f90a529ffa1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "45e98f90308544a3a6e2ce58919bdfb2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='PKri-0' random-id='d21556a6-0fd0-41af-7b32-6da6ea73b398'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&#92;u041f&#92;&#92;u0435&#92;&#92;u0440&#92;&#92;u0435&#92;&#92;u043c&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u043d&#92;&#92;u0430&#92;&#92;u044f&#92;&quot;:&#92;&quot;x1&#92;&quot;,&#92;&quot;&#92;&#92;u0417&#92;&#92;u043d&#92;&#92;u0430&#92;&#92;u0447&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u0438&#92;&#92;u0435&#92;&quot;:0.5225689938507265,&#92;&quot;&#92;&#92;u041e&#92;&#92;u043a&#92;&#92;u0440&#92;&#92;u0443&#92;&#92;u0433&#92;&#92;u043b&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u0438&#92;&#92;u0435 &#92;&#92;u0434&#92;&#92;u043e 0.001&#92;&quot;:0.523,&#92;&quot;&#92;&#92;u041d&#92;&#92;u0435&#92;&#92;u0432&#92;&#92;u044f&#92;&#92;u0437&#92;&#92;u043a&#92;&#92;u0430&#92;&quot;:0.0},{&#92;&quot;&#92;&#92;u041f&#92;&#92;u0435&#92;&#92;u0440&#92;&#92;u0435&#92;&#92;u043c&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u043d&#92;&#92;u0430&#92;&#92;u044f&#92;&quot;:&#92;&quot;x2&#92;&quot;,&#92;&quot;&#92;&#92;u0417&#92;&#92;u043d&#92;&#92;u0430&#92;&#92;u0447&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u0438&#92;&#92;u0435&#92;&quot;:1.1467521999548038,&#92;&quot;&#92;&#92;u041e&#92;&#92;u043a&#92;&#92;u0440&#92;&#92;u0443&#92;&#92;u0433&#92;&#92;u043b&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u0438&#92;&#92;u0435 &#92;&#92;u0434&#92;&#92;u043e 0.001&#92;&quot;:1.147,&#92;&quot;&#92;&#92;u041d&#92;&#92;u0435&#92;&#92;u0432&#92;&#92;u044f&#92;&#92;u0437&#92;&#92;u043a&#92;&#92;u0430&#92;&quot;:0.0},{&#92;&quot;&#92;&#92;u041f&#92;&#92;u0435&#92;&#92;u0440&#92;&#92;u0435&#92;&#92;u043c&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u043d&#92;&#92;u0430&#92;&#92;u044f&#92;&quot;:&#92;&quot;x3&#92;&quot;,&#92;&quot;&#92;&#92;u0417&#92;&#92;u043d&#92;&#92;u0430&#92;&#92;u0447&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u0438&#92;&#92;u0435&#92;&quot;:-0.017949885916028238,&#92;&quot;&#92;&#92;u041e&#92;&#92;u043a&#92;&#92;u0440&#92;&#92;u0443&#92;&#92;u0433&#92;&#92;u043b&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u0438&#92;&#92;u0435 &#92;&#92;u0434&#92;&#92;u043e 0.001&#92;&quot;:-0.018,&#92;&quot;&#92;&#92;u041d&#92;&#92;u0435&#92;&#92;u0432&#92;&#92;u044f&#92;&#92;u0437&#92;&#92;u043a&#92;&#92;u0430&#92;&quot;:-8.881784197001252e-16},{&#92;&quot;&#92;&#92;u041f&#92;&#92;u0435&#92;&#92;u0440&#92;&#92;u0435&#92;&#92;u043c&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u043d&#92;&#92;u0430&#92;&#92;u044f&#92;&quot;:&#92;&quot;x4&#92;&quot;,&#92;&quot;&#92;&#92;u0417&#92;&#92;u043d&#92;&#92;u0430&#92;&#92;u0447&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u0438&#92;&#92;u0435&#92;&quot;:0.7954597852535756,&#92;&quot;&#92;&#92;u041e&#92;&#92;u043a&#92;&#92;u0440&#92;&#92;u0443&#92;&#92;u0433&#92;&#92;u043b&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u0438&#92;&#92;u0435 &#92;&#92;u0434&#92;&#92;u043e 0.001&#92;&quot;:0.795,&#92;&quot;&#92;&#92;u041d&#92;&#92;u0435&#92;&#92;u0432&#92;&#92;u044f&#92;&#92;u0437&#92;&#92;u043a&#92;&#92;u0430&#92;&quot;:0.0}]&quot;' data-total-rows='4' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;\u041f\u0435\u0440\u0435\u043c\u0435\u043d\u043d\u0430\u044f&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;\u0417\u043d\u0430\u0447\u0435\u043d\u0438\u0435&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;\u041e\u043a\u0440\u0443\u0433\u043b\u0435\u043d\u0438\u0435 \u0434\u043e 0.001&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;\u041d\u0435\u0432\u044f\u0437\u043a\u0430&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "2749f4608f5dfd880e622f69628916cf",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Xref-0' random-id='44bc8a01-fdc5-2c54-9820-fd35f3ba2b1d'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&#92;u041f&#92;&#92;u0435&#92;&#92;u0440&#92;&#92;u0435&#92;&#92;u043c&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u043d&#92;&#92;u0430&#92;&#92;u044f&#92;&quot;:&#92;&quot;x1&#92;&quot;,&#92;&quot;&#92;&#92;u0417&#92;&#92;u043d&#92;&#92;u0430&#92;&#92;u0447&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u0438&#92;&#92;u0435&#92;&quot;:0.5225689938507265,&#92;&quot;&#92;&#92;u041e&#92;&#92;u043a&#92;&#92;u0440&#92;&#92;u0443&#92;&#92;u0433&#92;&#92;u043b&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u0438&#92;&#92;u0435 &#92;&#92;u0434&#92;&#92;u043e 0.001&#92;&quot;:0.523,&#92;&quot;&#92;&#92;u041d&#92;&#92;u0435&#92;&#92;u0432&#92;&#92;u044f&#92;&#92;u0437&#92;&#92;u043a&#92;&#92;u0430&#92;&quot;:-1.3322676295501878e-15},{&#92;&quot;&#92;&#92;u041f&#92;&#92;u0435&#92;&#92;u0440&#92;&#92;u0435&#92;&#92;u043c&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u043d&#92;&#92;u0430&#92;&#92;u044f&#92;&quot;:&#92;&quot;x2&#92;&quot;,&#92;&quot;&#92;&#92;u0417&#92;&#92;u043d&#92;&#92;u0430&#92;&#92;u0447&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u0438&#92;&#92;u0435&#92;&quot;:1.146752199954804,&#92;&quot;&#92;&#92;u041e&#92;&#92;u043a&#92;&#92;u0440&#92;&#92;u0443&#92;&#92;u0433&#92;&#92;u043b&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u0438&#92;&#92;u0435 &#92;&#92;u0434&#92;&#92;u043e 0.001&#92;&quot;:1.147,&#92;&quot;&#92;&#92;u041d&#92;&#92;u0435&#92;&#92;u0432&#92;&#92;u044f&#92;&#92;u0437&#92;&#92;u043a&#92;&#92;u0430&#92;&quot;:8.881784197001252e-16},{&#92;&quot;&#92;&#92;u041f&#92;&#92;u0435&#92;&#92;u0440&#92;&#92;u0435&#92;&#92;u043c&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u043d&#92;&#92;u0430&#92;&#92;u044f&#92;&quot;:&#92;&quot;x3&#92;&quot;,&#92;&quot;&#92;&#92;u0417&#92;&#92;u043d&#92;&#92;u0430&#92;&#92;u0447&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u0438&#92;&#92;u0435&#92;&quot;:-0.017949885916028585,&#92;&quot;&#92;&#92;u041e&#92;&#92;u043a&#92;&#92;u0440&#92;&#92;u0443&#92;&#92;u0433&#92;&#92;u043b&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u0438&#92;&#92;u0435 &#92;&#92;u0434&#92;&#92;u043e 0.001&#92;&quot;:-0.018,&#92;&quot;&#92;&#92;u041d&#92;&#92;u0435&#92;&#92;u0432&#92;&#92;u044f&#92;&#92;u0437&#92;&#92;u043a&#92;&#92;u0430&#92;&quot;:-8.881784197001252e-16},{&#92;&quot;&#92;&#92;u041f&#92;&#92;u0435&#92;&#92;u0440&#92;&#92;u0435&#92;&#92;u043c&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u043d&#92;&#92;u0430&#92;&#92;u044f&#92;&quot;:&#92;&quot;x4&#92;&quot;,&#92;&quot;&#92;&#92;u0417&#92;&#92;u043d&#92;&#92;u0430&#92;&#92;u0447&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u0438&#92;&#92;u0435&#92;&quot;:0.7954597852535754,&#92;&quot;&#92;&#92;u041e&#92;&#92;u043a&#92;&#92;u0440&#92;&#92;u0443&#92;&#92;u0433&#92;&#92;u043b&#92;&#92;u0435&#92;&#92;u043d&#92;&#92;u0438&#92;&#92;u0435 &#92;&#92;u0434&#92;&#92;u043e 0.001&#92;&quot;:0.795,&#92;&quot;&#92;&#92;u041d&#92;&#92;u0435&#92;&#92;u0432&#92;&#92;u044f&#92;&#92;u0437&#92;&#92;u043a&#92;&#92;u0430&#92;&quot;:0.0}]&quot;' data-total-rows='4' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;\u041f\u0435\u0440\u0435\u043c\u0435\u043d\u043d\u0430\u044f&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;\u0417\u043d\u0430\u0447\u0435\u043d\u0438\u0435&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;\u041e\u043a\u0440\u0443\u0433\u043b\u0435\u043d\u0438\u0435 \u0434\u043e 0.001&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;\u041d\u0435\u0432\u044f\u0437\u043a\u0430&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
